@@ -24,5 +24,5 @@ int main()
 	cout << ans;
 }
 
-// I/P -> size_of_array , Array , element_to_search
+// I/P -> size_of_array , Array (in sorted order) , element_to_search
 // O/P -> index_of_element
