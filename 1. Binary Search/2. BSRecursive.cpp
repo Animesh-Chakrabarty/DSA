@@ -5,7 +5,7 @@ int BSRecursive(int arr[] ,  int x , int low , int high)
 {
 	if (low <= high)
 	{
-		int mid = (low + high) / 2;
+		int mid = low + (high - low) / 2;
 		if (arr[mid] == x) return mid;
 		else if (arr[mid] > x) return BSRecursive (arr , x , low , mid - 1);
 		else if (arr[mid] < x) return BSRecursive (arr , x , mid + 1 , high);
